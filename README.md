@@ -76,6 +76,7 @@ A modern, high-precision, cyberpunk-inspired event countdown timer built with **
 ## 🛠️ Tech Stack
 
 - **Framework**: [React 19](https://react.dev/)
+- **Analytics**: [@vercel/analytics](https://vercel.com/docs/analytics)
 - **Build Tool**: [Vite 8](https://vitejs.dev/)
 - **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
 - **Icons**: [Lucide React](https://lucide.dev/)
