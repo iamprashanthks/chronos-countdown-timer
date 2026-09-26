@@ -1,0 +1,6 @@
+{
+  "name": "Chronos - Desktop Countdown & Event Timer",
+  "description": "Precision countdown timer for desktop with big bold numbers, custom events, multiple display themes, and live countdown tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
