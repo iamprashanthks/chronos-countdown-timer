@@ -33,7 +33,7 @@ export const TimerListDrawer: React.FC<TimerListDrawerProps> = ({
 
   if (!isOpen) return null;
 
-  const categories = ['all', 'Milestone', 'Work', 'Holiday', 'Personal', 'Launch'];
+  const categories = ['all', 'Milestone', 'Work', 'Holiday', 'Personal', 'Launch', 'Event', 'Reminder'];
 
   const filteredTimers = timers.filter((t) => {
     const matchesCategory = filterCategory === 'all' || t.category === filterCategory;

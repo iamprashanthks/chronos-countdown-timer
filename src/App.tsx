@@ -24,7 +24,7 @@ import { Minimize2, Sparkles, Check } from 'lucide-react';
 export default function App() {
   const [timers, setTimers] = useState<CountdownTimer[]>(() => loadTimers());
   const [activeTimerId, setActiveTimerId] = useState<string>(() => loadActiveTimerId(timers));
-  const [displaySize, setDisplaySize] = useState<DisplaySize>('large');
+  const [displaySize, setDisplaySize] = useState<DisplaySize>('standard');
   const [isFullscreen, setIsFullscreen] = useState<boolean>(false);
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
   const [isDrawerOpen, setIsDrawerOpen] = useState<boolean>(false);

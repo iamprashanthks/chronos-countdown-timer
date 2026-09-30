@@ -15,7 +15,7 @@ export const BigNumberCard: React.FC<BigNumberCardProps> = memo(({
   value,
   label,
   theme,
-  size = 'large',
+  size = 'standard',
   isSmall = false,
   padLength = 2,
 }) => {

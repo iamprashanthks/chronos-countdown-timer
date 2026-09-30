@@ -9,7 +9,7 @@ export interface CountdownTimer {
   startDate?: string; // Optional start time for progress tracking
   description?: string;
   theme: ThemeId;
-  category: 'Milestone' | 'Work' | 'Holiday' | 'Personal' | 'Launch' | 'Event';
+  category: 'Milestone' | 'Work' | 'Holiday' | 'Personal' | 'Launch' | 'Event' | 'Reminder';
   showMilliseconds: boolean;
   enableSound: boolean;
   isPinned?: boolean;
